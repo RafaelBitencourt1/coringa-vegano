@@ -1,0 +1,160 @@
+
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #00a86b;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Navegação */
+nav {
+    background-color: #333;
+    text-align: center;
+    padding: 15px 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 0 20px;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+li a:hover {
+    color: #00a86b;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    color: #00a86b;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Imagem */
+#event-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#event-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Formulário de compra de ingressos */
+.ticket-container {
+    text-align: center;
+    background-color: #00a86b;
+    color: black;
+    padding: 40px 0;
+}
+
+.ticket-header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.ticket-header h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.ticket-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.ticket-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ticket-form input[type="text"],
+.ticket-form input[type="email"],
+.ticket-form select {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.ticket-form button {
+    background-color: #333;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+.ticket-form button:hover {
+    background-color: #00a86b;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}

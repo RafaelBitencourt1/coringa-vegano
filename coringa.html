@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coringa Vegano - Amigo Secreto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre o Evento</a></li>
+            <li><a href="#date-location">Data e Local</a></li>
+            <li><a href="#tickets">Ingressos</a></li>
+            <li><a href="#buy-tickets">Comprar Ingresso</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Coringa Vegano - Amigo Secreto</h1>
+        <p>Uma festa incrível para os NÃO amantes da comida vegana!</p>
+    </header>
+    <main>
+        <div id="event-image">
+            <img src="coringa.jpg" alt="Imagem da festa Coringa Vegano - Amigo Secreto">
+        </div>
+        <section id="about">
+            <h2>Sobre o Evento</h2>
+            <p>Uma festa NÃO vegana para celebrar o espírito do Amigo Secreto. Venha se juntar a nós!</p>
+        </section>
+        <section id="date-location">
+            <h2>Data e Local</h2>
+            <p>Data: 20 de Dezembro de 2023</p>
+            <p>Local: [tamo vendo ainda]</p>
+        </section>
+        <section id="tickets">
+            <h2>Ingressos</h2>
+            <p>Valores dos Ingressos:</p>
+            <ul>
+                <li>Ingresso Regular: R$ 15,00</li>
+                <li>Ingresso VIP: R$ 30,00</li>
+            </ul>
+        </section>
+        <section id="buy-tickets" class="ticket-container">
+            <div class="ticket-header">
+                <h2>Compre seu Ingresso</h2>
+            </div>
+            <div class="ticket-form">
+                <form>
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Endereço de Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="ticket-type">Tipo de Ingresso:</label>
+                    <select id="ticket-type" name="ticket-type" required>
+                        <option value="regular">Regular</option>
+                        <option value="vip">VIP</option>
+                    </select>
+
+                    <button type="submit">Comprar Ingresso</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2020 Coringa Vegano - Amigo Secreto</p>
+    </footer>
+</body>
+</html>
